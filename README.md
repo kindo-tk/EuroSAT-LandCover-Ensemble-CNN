@@ -68,22 +68,37 @@ Meta-classifier:
 | AUC-ROC (OvR) | 0.9990 |
 
 ---
+##  Comparison With VGG16
 
+| Metric | Ensemble | VGG16 |
+|--------|----------|--------|
+| Accuracy (%) | **98.00** | 97.20 |
+| Model Size | **42.5 MB** | 512 MB |
+| Params | **10.94M** | 134M |
+| Inference Time | 0.023s | **0.009s** |
+
+---
 ##  Repository Structure
 
 ```
 notebooks/
 results/
-paper/
 data/
 ```
 
 ---
 
-##  Run on Kaggle
-1. Upload notebooks  
-2. Add the EuroSAT dataset  
-3. Run all cells  
+## Reproducibility
+- The project was executed entirely in Kaggle Notebooks.
+- No local setup required.
+- Simply upload the notebooks, attach the EuroSAT dataset, and run all cells.
+
+
+---
+
+## Acknowledgements
+- EuroSAT dataset authors for providing the land cover dataset.
+- Sentinel-2 mission by ESA for multispectral imagery.
 
 ---
 
